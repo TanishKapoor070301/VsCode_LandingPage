@@ -1,0 +1,272 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    height: 100%;
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0E0E0E;
+    color: #9ba3b4;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #9ba3b4;
+    
+    
+
+}
+
+.img__navv{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navbar-ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+
+}
+
+#navbar_heading{
+    font-size: 1.2rem;
+    font-weight: 1000;
+    color: white;
+}
+.nav_search{
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.lili{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lili li:hover{
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#btn1{
+    background-color:#0069B9;
+    color: white;
+    border-radius: 2%;
+    border: none;
+    height: 2rem;
+    width: 7rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.searchbar{
+    border: 1px solid #9ba3b4;
+    display: flex; 
+    flex-direction: row; 
+    gap: 1rem; 
+    justify-content: center;
+     align-items: center;
+}
+     
+
+
+.hero1{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: #131313;
+
+
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero1_1{
+    color: #9ba3b4;
+    background-color: #2a2828;
+    font-size: 1.2rem;
+    padding: 6px;
+    border-radius: 12px;
+    max-width: 23rem;
+    text-align: center;
+    border: 1px solid #9ba3b4 ;
+
+}
+
+
+.btnHero1{
+    background-color: #0069B9;
+    border: none;
+    width: 16rem;
+    height: 4rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-radius: 6px;
+
+}
+
+.hero1_a a{
+    color: #0069B9;
+    font-size: 1.1rem;
+
+}
+
+.last_hero1 a{
+    color: #0069B9;
+        font-size: 1.1rem;
+
+}
+
+.hero2{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E0E0E;
+    gap: 4rem;
+    border-top: 1px solid #9ba3b4;
+}
+
+.coding{
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: #9ba3b4;
+}
+
+.coding img{
+    width: 3rem;
+}
+.maj{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: self-start;
+    margin-top: 5rem;
+}
+
+.kk{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero3_2{
+    display: flex;
+    flex-direction: row;
+}
+
+.each_block img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.each_block{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-items: ;
+}
+
+@media (max-width: 1200px) {
+    .searchbar {
+        display: none;
+    }
+}
+
+@media (max-width: 990px) {
+    .lili{
+        display: none;
+    }
+
+    .nav_search{
+            display: none;
+    }
+
+    #navbar{
+        justify-content: space-between;
+
+    }
+
+    .threeline{
+        margin-right: 4rem;
+    }
+
+    
+}
+
+@media (min-width:990px) {
+    .threeline{
+        display: none;
+    }
+    
+}
+
+
+@media (max-width:1100px) {
+    .hero1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        imagee1 img{
+            max-width: 500rem;
+    }
+    
+
+    .text1{
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+
+@media (max-width:1000px) {
+    .hero2{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: self-start;
+        gap: 2rem;
+        
+    }
+
+
+
+    
+}
